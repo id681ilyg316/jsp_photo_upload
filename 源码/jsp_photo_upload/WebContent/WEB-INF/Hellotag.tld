@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 标签库描述符 -->
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd" version="2.0">
+  <!-- 此标签库的一个描述 -->
+  <description>A tag library exercising SimpleTag handlers.</description>
+  <!-- 此标签库的版本，由程序设计师自行决定(必须) -->
+  <tlib-version>1.0</tlib-version>
+  <!-- 定义一个简短的名称(必须) -->
+  <short-name>hhh</short-name>
+  <!-- 定义标签库所在的位置 -->
+  <uri>http://www.tagdemo.com</uri>
+  <tag>
+    <!-- 定义每个标签的特性 -->
+    <description>this is copy right(版权信息)</description>
+    <!-- 描述 -->
+    <name>hello</name>
+    <!-- 自定义标签的名称 -->
+ <tag-class>org.njy.tld.HelloTld</tag-class>
+    <!-- 此标签对应的处理类 -->
+     <body-content>scriptless</body-content>
+    <!-- 定义标签主体的种类 -->
+  </tag>
+</taglib>
